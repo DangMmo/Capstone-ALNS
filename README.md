@@ -84,11 +84,6 @@ Mục đích: Xác định các khách hàng "bất khả thi" về mặt vật 
 
 Cài đặt thư viện: Đảm bảo bạn đã cài đặt các thư viện cần thiết:
 
-code
-Bash
-download
-content_copy
-expand_less
 pip install numpy pandas scikit-learn matplotlib kmedoids_py
 
 KA BOOM KA BOOM KA BOOM, HƯỚNG DẪN SỬ DỤNG TỔNG THỂ Ở ĐÂY NÈ!!!!!!!!!!!!!!!!!!!!!!!
@@ -102,15 +97,9 @@ Thay đổi biến file_name để trỏ đến file dữ liệu CSV của bạn
 
 Thực thi: Chạy file main.py
 
-code
-Bash
-download
-content_copy
-expand_less
-python main_flexible.py
+python main.py
 
 Xem kết quả: Kết quả chi tiết về quá trình phân cụm, các tuyến đường được tạo, tổng chi phí, và danh sách khách hàng không được phục vụ (nếu có) sẽ được in ra màn hình.
-
 
 NÀY LÀ KIỂM TRA RIÊNG LẺ
 Để kiểm tra dữ liệu đầu vào (tìm khách hàng bất khả thi):
