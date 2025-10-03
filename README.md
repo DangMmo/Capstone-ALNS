@@ -1,6 +1,4 @@
 # Capstone-ALNS
-Chắc chắn rồi. Một file README.md rõ ràng là rất cần thiết để quản lý dự án và hiểu cách các thành phần hoạt động cùng nhau. Dưới đây là một bản README.md được cấu trúc đơn giản, dễ hiểu, tóm tắt toàn bộ dự án của bạn tính đến thời điểm hiện tại.
-
 Dự án 2E-VRP-PDD Solver (Phiên bản Initial Solution)
 1. Giới thiệu
 
@@ -68,7 +66,7 @@ Xây dựng lại toàn bộ tuyến FE để tối ưu hóa sau khi giải cứ
 
 Các file Công cụ & Thực thi
 
-📄 main_flexible.py (File Chạy Chính):
+📄 main.py (File Chạy Chính):
 
 Chức năng: Điều phối toàn bộ quy trình và là nơi người dùng tương tác.
 
@@ -93,7 +91,8 @@ content_copy
 expand_less
 pip install numpy pandas scikit-learn matplotlib kmedoids_py
 
-Cấu hình: Mở file main_flexible.py.
+KA BOOM KA BOOM KA BOOM, HƯỚNG DẪN SỬ DỤNG TỔNG THỂ Ở ĐÂY NÈ!!!!!!!!!!!!!!!!!!!!!!!
+Cách dùng: Mở file main.py.
 
 Thay đổi biến file_name để trỏ đến file dữ liệu CSV của bạn.
 
@@ -101,7 +100,7 @@ Thay đổi biến file_name để trỏ đến file dữ liệu CSV của bạn
 
 Đặt CONSIDER_DEADLINE = True hoặc False tùy theo kịch bản bạn muốn kiểm tra.
 
-Thực thi: Chạy file main_flexible.py từ terminal hoặc IDE của bạn.
+Thực thi: Chạy file main.py
 
 code
 Bash
@@ -112,30 +111,13 @@ python main_flexible.py
 
 Xem kết quả: Kết quả chi tiết về quá trình phân cụm, các tuyến đường được tạo, tổng chi phí, và danh sách khách hàng không được phục vụ (nếu có) sẽ được in ra màn hình.
 
+
+NÀY LÀ KIỂM TRA RIÊNG LẺ
 Để kiểm tra dữ liệu đầu vào (tìm khách hàng bất khả thi):
 
 Mở file verify_feasibility.py và cập nhật đường dẫn file_name.
 
 Chạy file:
-
-code
-Bash
-download
-content_copy
-expand_less
 python verify_feasibility.py
-4. Tình trạng Hiện tại & Ghi chú Quan trọng
 
-Trạng thái: Chương trình hiện tại có khả năng tạo ra một lời giải ban đầu khả thi (tuân thủ các ràng buộc).
-
-Vấn đề đã biết: Với các bộ dữ liệu lớn và phức tạp (như CS_2_D.csv), số lượng khách hàng không được phục vụ có thể rất lớn.
-
-Nguyên nhân: Điều này chủ yếu là do:
-
-Dữ liệu chứa các khách hàng "bất khả thi" về mặt vật lý (xác minh bằng verify_feasibility.py).
-
-Bản chất "tham lam" của thuật toán xây dựng, dẫn đến việc lấp đầy các tuyến đường quá sớm và không tối ưu toàn cục (Hiệu ứng "Cầu tuyết").
-
-Hướng phát triển tiếp theo: Để giảm số lượng khách hàng không được phục vụ và cải thiện chất lượng lời giải, cần triển khai các thuật toán cải thiện (Improvement Heuristics) như Large Neighborhood Search (LNS) để tối ưu hóa lời giải ban đầu này.
-
-(File README này được tạo vào ngày [Ngày hiện tại] cho phiên bản Initial Solution)
+DFile README này được tạo vào ngày [Ngày hiện tại] cho phiên bản Initial Solution)
