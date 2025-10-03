@@ -87,6 +87,7 @@ Cài đặt thư viện: Đảm bảo bạn đã cài đặt các thư viện c�
 pip install numpy pandas scikit-learn matplotlib kmedoids_py
 
 KA BOOM KA BOOM KA BOOM, HƯỚNG DẪN SỬ DỤNG TỔNG THỂ Ở ĐÂY NÈ!!!!!!!!!!!!!!!!!!!!!!!
+
 Cách dùng: Mở file main.py.
 
 Thay đổi biến file_name để trỏ đến file dữ liệu CSV của bạn.
